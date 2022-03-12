@@ -46,7 +46,24 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Body */}
+      <form className="mt-44 flex flex-grow flex-col items-center">
+        <Image
+          src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          height={100}
+          width={300}
+        />
+
+        <div className="mt-5 flex w-full max-w-md items-center rounded-full border border-gray-200 px-5 py-3 focus-within:shadow-lg hover:shadow-lg sm:max-w-xl lg:max-w-2xl">
+          <SearchIcon className="mr-3 h-5 text-gray-500" />
+          <input type="text" className="flex-grow focus:outline-none" />
+          <MicrophoneIcon className="ml-3 h-5 text-gray-500" />
+        </div>
+
+        <div className="mt-8 flex w-1/2 flex-col justify-center space-y-2 sm:flex-row sm:space-y-0 sm:space-x-4">
+          <button className="btn">Google Search</button>
+          <button className="btn">I'm Feeling Lucky</button>
+        </div>
+      </form>
 
       {/* Footer */}
     </div>
