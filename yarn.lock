@@ -179,6 +179,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/line-clamp@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@tailwindcss/line-clamp@npm:0.3.1"
+  peerDependencies:
+    tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  checksum: 805322a6333f029d6d961e02f23099d16f55d31f4736511bc741efff4097a1ad1574a7dff0530b17dbc974e08138b3beb13766f809e0116ebc192b0edf38b737
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -1681,6 +1690,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@heroicons/react": ^1.0.6
+    "@tailwindcss/line-clamp": ^0.3.1
     autoprefixer: ^10.4.0
     next: latest
     postcss: ^8.4.5
