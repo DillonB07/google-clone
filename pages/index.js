@@ -50,7 +50,7 @@ export default function Home() {
           {/* Icon */}
           {/* <ViewGridIcon className="h-10 w-10 cursor-pointer rounded-full p-2 hover:bg-gray-100" /> */}
           <svg
-            className="gb_Se h-10 w-10 cursor-pointer rounded-full p-2 hover:bg-gray-100"
+            className="h-10 w-10 cursor-pointer rounded-full fill-[#5f6368] p-2 hover:bg-gray-100"
             focusable="false"
             viewBox="0 0 24 24"
           >
