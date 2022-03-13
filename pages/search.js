@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Header from '../components/Header'
 import { API_KEY, CONTEXT_KEY } from '../keys.js'
-import Response from '../response'
 import SearchResults from '../components/SearchResults'
 
 function Search({ results }) {
