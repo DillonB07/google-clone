@@ -32,6 +32,7 @@ function Header() {
         <form className="ml-10 mr-5 flex max-w-3xl flex-grow items-center rounded-full border border-gray-200 px-6 py-3 shadow-lg">
           <input
             ref={searchInputRef}
+            defaultValue={router.query?.term}
             className="w-full flex-grow focus:outline-none"
             type="text"
           />
